@@ -54,4 +54,5 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - s3_website.yml
-  - deploying.sh
+  - deploy.sh
+  - readme.md
