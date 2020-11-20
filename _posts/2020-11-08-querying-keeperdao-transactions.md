@@ -138,9 +138,11 @@ async function eventQuery(){
 }
 
 eventQuery().then(events => handle(events)).catch((err) => console.error(err));
+{% endhighlight %}
 
-// wait for eventQuery to complete...
+Wait for `Event query complete` to print. Then...
 
+{% highlight javascript %}
 var counter = 0;
 console.log("event,block,tx,caller")
 for (const event of allEvents) {
